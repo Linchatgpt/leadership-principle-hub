@@ -1,5 +1,5 @@
 [build]
-  command = "python3 scripts/build_article_hub.py"
+  command = "true"
   publish = "."
 
 [[headers]]

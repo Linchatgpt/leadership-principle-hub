@@ -1,5 +1,7 @@
 # Work log
 
+- 2026-08-04：建立 GitHub 公開儲存庫 `Linchatgpt/leadership-principle-hub` 並連結 Netlify 站點 `leadership-principle-hub`；Netlify 設為靜態發布已生成的首頁與 Module 01–06，部署排除管理工具、來源材料與內部文件。
+
 - 2026-08-04：將原 11 模組專案拆分為 `Leadership Principle hub`（Module 01–06）與 `Leadership Coaching Hub`（Module 07–11）。本專案加入 `module_range: [1,6]`、獨立首頁／管理選單範圍及防止建置器重新產生 07–11 的範圍控制。
 
 - 2026-08-04：專案目錄由 `LPI coach hub` 改名為 `Leader Principle hub`。首頁、第 1–11 頁、皇家實驗頁、管理頁及建置器的可見 `CHAPTER`／`Chapter` 標示統一為 `MODULE`／`Module`；為維持相容性，HTML 檔名、內部來源路徑及 localStorage key 不變。33 項測試通過；Chrome 實測首頁 11 張模組卡、Module 01 實際跳轉、第 1–11 頁側欄與 hero 標示、管理頁選單、舊 Chapter 可見文字排除及水平溢位全部通過。

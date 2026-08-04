@@ -1,5 +1,9 @@
 # Latest handoff
 
+## GitHub / Netlify publishing · 2026-08-04
+
+The project is published at `https://github.com/Linchatgpt/leadership-principle-hub`. The Netlify site name is `leadership-principle-hub`; its production URL is `https://leadership-principle-hub.netlify.app`. Netlify serves the generated learner pages as static files and excludes local administration tools, source materials, internal documents, and experiments from deployment.
+
 ## Project split · 2026-08-04
 
 The project root is `/Users/wes_mini/Projects/Leadership Principle hub` and exposes only Module 01–06. Module 07–11 live in the independent `/Users/wes_mini/Projects/Leadership Coaching Hub`. Learner-facing labels use `MODULE`/`Module`; canonical filenames, internal `chapter_*` paths, and localStorage keys remain unchanged for compatibility.
