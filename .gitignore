@@ -5,3 +5,4 @@ __pycache__/
 tmp/
 .netlify/
 reference_materials/source_book/inbox/
+node_modules/

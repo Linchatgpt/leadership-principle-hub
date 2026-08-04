@@ -1,5 +1,7 @@
 # Work log
 
+- 2026-08-04：開始製作 Module 04「挑戰流程」。依來源 PDF Chapter 4 p.89–124 做本機定向研究，將搜尋改善機會、根因、低風險實驗、里程碑與從結果學習轉為流程改善／效率提升主線；建立設計規格、核心概念筆記、5,306 字 canonical 深入閱讀稿、三張前置學習卡、三題課前快問、桃園電子零組件公司案例、四構面／12 題自評與 SEO metadata。靜態結構檢查、既有 35 項測試、Python／JavaScript 語法檢查通過；Chrome 實測待補。
+
 - 2026-08-04：建立 GitHub 公開儲存庫 `Linchatgpt/leadership-principle-hub` 並連結 Netlify 站點 `leadership-principle-hub`；Netlify 設為靜態發布已生成的首頁與 Module 01–06，部署排除管理工具、來源材料與內部文件。
 
 - 2026-08-04：將原 11 模組專案拆分為 `Leadership Principle hub`（Module 01–06）與 `Leadership Coaching Hub`（Module 07–11）。本專案加入 `module_range: [1,6]`、獨立首頁／管理選單範圍及防止建置器重新產生 07–11 的範圍控制。

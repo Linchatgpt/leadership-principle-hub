@@ -141,6 +141,23 @@ def update_chapter(chapter: int) -> pathlib.Path:
 
     learning = json.loads((ROOT / "content" / f"chapter_{chapter:02d}_learning.json").read_text(encoding="utf-8"))
 
+    if "seo" in learning:
+        seo = learning["seo"]
+        escaped_title = html.escape(seo["title"], quote=True)
+        escaped_description = html.escape(seo["description"], quote=True)
+        canonical = html.escape(seo["canonical"], quote=True)
+        seo_tags = (
+            f'<title>{escaped_title}</title>'
+            f'<meta name="description" content="{escaped_description}">'
+            f'<link rel="canonical" href="{canonical}">'
+            f'<meta property="og:type" content="article">'
+            f'<meta property="og:title" content="{escaped_title}">'
+            f'<meta property="og:description" content="{escaped_description}">'
+            f'<meta property="og:url" content="{canonical}">'
+            f'<script type="application/ld+json">{{"@context":"https://schema.org","@type":"Course","name":{json.dumps(seo["title"], ensure_ascii=False)},"description":{json.dumps(seo["description"], ensure_ascii=False)},"url":{json.dumps(seo["canonical"], ensure_ascii=False)}}}</script>'
+        )
+        source = re.sub(r'<title>.*?</title>', seo_tags, source, count=1, flags=re.S)
+
     hero_match = re.search(r'(<section class="hero" id="s0">)(.*?)(</section>)', source, flags=re.S)
     if not hero_match:
         raise ValueError("Could not locate chapter hero")

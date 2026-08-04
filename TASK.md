@@ -1,5 +1,12 @@
 # 目前任務
 
+## Module 04 製作中（2026-08-04）
+
+- 已依最新版 `build-source-book-learning-hub` 建立 Module 04 設計規格、核心概念筆記、canonical 深入閱讀 Markdown、章節專屬閱讀入口／案例／自評資料與 SEO metadata。
+- 目前 Module 04 深入閱讀渲染約 5,306 個非空白字元，導言約 184 字；自評為四構面／12 題，閱讀快問為三題／各兩選項。
+- 靜態結構驗證、既有 35 項自動測試、Python 編譯與 JavaScript 語法檢查通過。
+- 尚待 Chrome 實際操作驗證：快問展開／回饋／重載／清除、自評缺答／完整結果、工作紀錄與行動承諾保存、桌面／390px 手機版，以及正式 Netlify 部署後頁面。
+
 ## 專案拆分（2026-08-04）
 
 - 本專案目錄為 `Leadership Principle hub`，只公開 Module 01–06。
