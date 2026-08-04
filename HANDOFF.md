@@ -178,3 +178,10 @@ Unknown / needs confirmation.
 - Chrome 逐頁實測首頁及第 1–3 章；快問、缺答聚焦、12 題送出、結果與焦點、工作紀錄、行動承諾、重載保存均成功。390px 下無水平溢位，評分控制為 44×59px；測試資料已清空。
 - Chrome 控制擴充功能會在每次頁面載入記錄一筆訊息為 `Object` 的 error。用沒有任何網站 JavaScript 的首頁隔離重現，確認不是 learner runtime 例外；頁面功能及獨立靜態檢查均無對應錯誤。
 - 技能 validator 已不再回報首頁、第 1–3 章或 Royal 命名問題；目前失敗項目只屬第 4–11 章缺少新版入口、05 結構與 canonical 深入閱讀稿，留待下一階段。
+- 主題：促能他人行動；聚焦授權與自主決策。
+- 主題：促能他人行動；聚焦授權與自主決策。
+- canonical 來源：`reference_materials/chapters/chapter_05/01_core_concepts.md`、`02_deep_reading_draft.md`。
+- 內容來源：`content/chapter_05_callouts.json`、`content/chapter_05_learning.json`；頁面：`LPI_Coach_Chapter05.html`。
+- 深入閱讀渲染後 5,142 個非空白字元；工具為「授權邊界卡」「決策準備檢查表」「自主回看對話」，每個工具都有概要清單與 120–300 字說明。
+- Chrome 已驗證：快問可展開／回饋、自評由 0／12 至 12／12、本機保存、390px `scrollWidth=390`。測試資料已清除後重新驗證。
+- 本輪尚未完成 Git commit／push／Netlify 部署；停止前需執行並記錄。
