@@ -1,5 +1,9 @@
 # Latest handoff
 
+## Module 03／04 案例與 Module 06 核對（2026-08-04）
+
+Module 03、04 案例已重新改寫，敘事入口與產業情境分別改為教育科技共同方向、餐飲供應流程卡點。Module 06 已再次核對，`#s5` 與 Module 01 的結構 signature 完全一致；三頁 Chrome 實測通過。待提交與部署。
+
 ## 最新修正（2026-08-04）
 
 Module 01、02、06 的案例已改寫為不同情境與開場；所有學習頁與首頁已移除 PART I／PART II 標示。Module 06 的行動承諾已統一為 `05 ACTION COMMITMENT`、`.head + .simple-record`，與其他模組一致。Chrome 實測三頁通過；commit `4ecd72a8` 已推送，Netlify production 已部署。
