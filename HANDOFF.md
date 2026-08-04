@@ -1,5 +1,9 @@
 # Latest handoff
 
+## 最新修正（2026-08-04）
+
+Module 01、02、06 的案例已改寫為不同情境與開場；所有學習頁與首頁已移除 PART I／PART II 標示。Module 06 的行動承諾已統一為 `05 ACTION COMMITMENT`、`.head + .simple-record`，與其他模組一致。Chrome 實測三頁通過；尚待提交與部署。
+
 ## Module 04 in progress · 2026-08-04
 
 Module 04「挑戰流程」已依最新版 build-source-book-learning-hub skill 建立設計規格與 canonical sources. The learner-facing focus is workflow improvement and efficiency: identify process signals, separate facts from assumptions, design a low-risk experiment, and learn from mixed results. Files added include `docs/superpowers/specs/2026-08-04-module-04-design.md`, `reference_materials/chapters/chapter_04/01_core_concepts.md`, `reference_materials/chapters/chapter_04/02_deep_reading_draft.md`, `content/chapter_04_callouts.json`, and `content/chapter_04_learning.json`.

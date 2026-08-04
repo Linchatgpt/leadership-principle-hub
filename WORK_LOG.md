@@ -24,6 +24,8 @@
 Unknown / needs confirmation.
 # 工作紀錄
 
+- 2026-08-04：修正 Module 01、02、06 工作案例重複問題，改用不同組織、人物與敘事入口；移除學習頁與首頁的 `PART I`／`PART II` 顯示；Module 06 的 `05 ACTION COMMITMENT` 已改成與其他模組一致的 `.head + .simple-record` 結構。自動測試 35 項通過，Chrome 實測三個模組的標題、案例開頭、行動承諾結構及無 `PART` 文字正常。
+
 - 2026-08-04：更新 `build-source-book-learning-hub` 技能的共用網站 shell。先新增失敗測試證明舊驗證器會放過錯誤品牌與頁尾，再加入 `config.json.site_shell` 契約、XL／卓越領導力學習中心預設、22px 三項聯絡頁尾、首頁與章節精確對齊、responsive CSS、初始化參數、模板及 validator。技能測試 10/10、全新專案初始化與結構驗證、Python 編譯及 quick_validate 全部通過；本專案 config 同步完成。
 
 - 2026-08-03：更新全站品牌顯示：首頁與第 1–11 章頁首由「卓越領導者教練學習中心」改為「卓越領導力學習中心」，圓形 Logo 文字由 `LPI` 改為 `XL`；頁尾字級由 26px 調整為 22px。同步 shell 更新器、總建置器與皇家實驗版，32 項測試與語法檢查通過。Chrome 逐頁確認品牌文字、Logo、22px 頁尾與無水平溢位。
