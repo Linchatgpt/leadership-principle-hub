@@ -2,7 +2,7 @@
 
 ## Module 05／06 視覺修正（2026-08-04）
 
-截圖所示差異已定位為 Module 06 仍載入舊 CSS。現在 Module 06 已同步 Module 05 的行動承諾樣式；Module 05 案例已改為居家照護服務授權情境。Chrome 已驗證兩頁計算樣式一致、390px 無溢出；待提交與部署。
+截圖所示差異已定位為 Module 06 仍載入舊 CSS。現在 Module 06 已同步 Module 05 的行動承諾樣式；Module 05 案例已改為居家照護服務授權情境。Chrome 已驗證兩頁計算樣式一致、390px 無溢出；commit `09f00d96` 已推送，Netlify production 已部署。
 
 ## Module 03／04 案例與 Module 06 核對（2026-08-04）
 
