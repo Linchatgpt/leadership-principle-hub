@@ -4,7 +4,7 @@
 
 Module 04「挑戰流程」已依最新版 build-source-book-learning-hub skill 建立設計規格與 canonical sources. The learner-facing focus is workflow improvement and efficiency: identify process signals, separate facts from assumptions, design a low-risk experiment, and learn from mixed results. Files added include `docs/superpowers/specs/2026-08-04-module-04-design.md`, `reference_materials/chapters/chapter_04/01_core_concepts.md`, `reference_materials/chapters/chapter_04/02_deep_reading_draft.md`, `content/chapter_04_callouts.json`, and `content/chapter_04_learning.json`.
 
-`LPI_Coach_Chapter04.html` now uses the new reading-entry contract, chapter-specific four-dimension/12-item assessment, simplified 04/05 transfer layout, and SEO title/description/canonical/Open Graph/JSON-LD metadata. The rendered article is approximately 5,306 non-whitespace characters and its introduction is approximately 184 characters. Static tests pass, but Chrome interaction verification is still pending because no callable Chrome control tool was available in this turn; do not report Module 04 as browser-verified yet.
+`LPI_Coach_Chapter04.html` now uses the new reading-entry contract, chapter-specific four-dimension/12-item assessment, simplified 04/05 transfer layout, and SEO title/description/canonical/Open Graph/JSON-LD metadata. After the requested shortening, the rendered article is approximately 5,256 non-whitespace characters and its introduction is approximately 184 characters. Static tests pass. Chrome verified the quick scan open/feedback/reload/clear flow, incomplete and complete assessment, focus options, transfer-field persistence, clear scope, and 390px no-overflow behavior; test data was cleared afterward.
 
 ## GitHub / Netlify publishing · 2026-08-04
 
