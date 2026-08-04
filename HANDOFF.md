@@ -10,6 +10,8 @@ The follow-up check found that an older `LPIPage:v2` local editor snapshot could
 
 The renderer also had a separate boundary issue: a blank line after a tool heading could close the tool before its paragraph, or leave later prose inside the card. The renderer and Module 04 Markdown spacing now produce a bounded tool card containing only the intended 88-character explanation; static tests pass after regeneration.
 
+The tool presentation was then standardized as `工具一` through `工具四`. Each article tool now starts with a concise list summary followed by one or two explanatory paragraphs. Chrome confirmed all four cards are bounded, the summary remains visible, and the 390px viewport has no horizontal overflow.
+
 ## GitHub / Netlify publishing · 2026-08-04
 
 The project is published at `https://github.com/Linchatgpt/leadership-principle-hub`. The Netlify site name is `leadership-principle-hub`; its production URL is `https://leadership-principle-hub.netlify.app`. Netlify serves the generated learner pages as static files and excludes local administration tools, source materials, internal documents, and experiments from deployment.
