@@ -8,6 +8,8 @@ Module 04「挑戰流程」已依最新版 build-source-book-learning-hub skill 
 
 The follow-up check found that an older `LPIPage:v2` local editor snapshot could replace regenerated `main` content at page load. Module 04 now uses content version `1.1.0`, and `assets/editor-runtime.js` restores cached HTML only when its version matches the current chapter config. Chrome injected an old snapshot, reloaded the page, confirmed the shortened text was visible and the old text was absent, then cleared the test snapshot.
 
+The renderer also had a separate boundary issue: a blank line after a tool heading could close the tool before its paragraph, or leave later prose inside the card. The renderer and Module 04 Markdown spacing now produce a bounded tool card containing only the intended 88-character explanation; static tests pass after regeneration.
+
 ## GitHub / Netlify publishing · 2026-08-04
 
 The project is published at `https://github.com/Linchatgpt/leadership-principle-hub`. The Netlify site name is `leadership-principle-hub`; its production URL is `https://leadership-principle-hub.netlify.app`. Netlify serves the generated learner pages as static files and excludes local administration tools, source materials, internal documents, and experiments from deployment.

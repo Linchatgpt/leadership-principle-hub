@@ -47,6 +47,8 @@ def render_deep_reading_markdown(source):
         stripped = raw.strip()
         if not stripped:
             flush_paragraph()
+            if open_panel == "tool":
+                close_panel()
             close_list()
             index += 1
             continue

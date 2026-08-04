@@ -3,6 +3,7 @@
 - 2026-08-04：開始製作 Module 04「挑戰流程」。依來源 PDF Chapter 4 p.89–124 做本機定向研究，將搜尋改善機會、根因、低風險實驗、里程碑與從結果學習轉為流程改善／效率提升主線；建立設計規格、核心概念筆記、5,306 字 canonical 深入閱讀稿、三張前置學習卡、三題課前快問、桃園電子零組件公司案例、四構面／12 題自評與 SEO metadata。靜態結構檢查、既有 35 項測試、Python／JavaScript 語法檢查通過；Chrome 實測待補。
 - 2026-08-04：依使用者要求將「一週改善回看表」工具箱專欄縮短約 50%，深入閱讀渲染約 5,256 字。Chrome 實測 Module 04 快問、自評缺答／完整結果、焦點、清除範圍、工作紀錄／行動承諾保存與重載，以及 390px 無水平溢位均通過；測試資料已清除。
 - 2026-08-04：排查使用者看到舊版的原因，確認是 `LPIPage:v2` localStorage 舊 HTML 快取在載入時覆蓋 regenerated `main`。更新 `editor-runtime.js` 版本比對保護與 Module 04 `content_version` 1.1.0；Chrome 注入舊快取後重載，確認縮短後文字可見、舊文字不可見，並清除測試快取。
+- 2026-08-04：再確認工具箱卡片仍顯得過長的原因是 Markdown renderer 容器邊界錯誤；修正空行後關閉 `.reading-tool` 的規則並調整 Module 04 工具段落格式，確認「一週改善回看表」卡片只包含 88 字說明，後續正文已移出卡片。
 
 - 2026-08-04：建立 GitHub 公開儲存庫 `Linchatgpt/leadership-principle-hub` 並連結 Netlify 站點 `leadership-principle-hub`；Netlify 設為靜態發布已生成的首頁與 Module 01–06，部署排除管理工具、來源材料與內部文件。
 
