@@ -184,4 +184,4 @@ Unknown / needs confirmation.
 - 內容來源：`content/chapter_05_callouts.json`、`content/chapter_05_learning.json`；頁面：`LPI_Coach_Chapter05.html`。
 - 深入閱讀渲染後 5,142 個非空白字元；工具為「授權邊界卡」「決策準備檢查表」「自主回看對話」，每個工具都有概要清單與 120–300 字說明。
 - Chrome 已驗證：快問可展開／回饋、自評由 0／12 至 12／12、本機保存、390px `scrollWidth=390`。測試資料已清除後重新驗證。
-- 本輪尚未完成 Git commit／push／Netlify 部署；停止前需執行並記錄。
+- Git commit `d6d3b3e1` 已推送至 GitHub main；Netlify production 已部署，網址為 `https://leadership-principle-hub.netlify.app`。

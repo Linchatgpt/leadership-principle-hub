@@ -119,3 +119,4 @@
 第三章皇家版：新增獨立的 `LPI_Coach_Chapter03_Royal.html` 與 `assets/chapter03-royal.css`，以象牙紙、孔雀綠、古金、酒紅與皇家天文儀重塑完整第三章；原始 `LPI_Coach_Chapter03.html` 未修改。皇家版保留 6,381 字深入閱讀、三題快問、十二題自評、雷達結果、工作紀錄與行動承諾，使用 `LPI_CoachChapter3RoyalV2` 隔離本機資料。Chrome 已完成桌面互動、重載保存、結果焦點、390px 無水平溢出與最小 44px 控制驗證。
 首頁與第 1–3 章正規化（2026-08-03）：完成首頁產生器來源中立化、Noto Sans TC 優先字體、canonical 第三章收斂、第一章深入閱讀補強，以及三章從 Markdown／JSON 來源重建。第一章渲染非空白字數 5,181，第二章 5,049，第三章 6,381。新增全站入口與前三章回歸測試；26 項自動測試通過。Chrome 已操作首頁導覽、三章快問、自評缺答／完整結果、工作紀錄與保存，並完成 390px 響應式驗證及測試資料清除。全專案 validator 目前只剩第 4–11 章尚未遷移的預期失敗。
 \n+- 2026-08-04：開始製作 Module 05「授權與自主決策」；建立 `reference_materials/chapters/chapter_05/01_core_concepts.md`、`02_deep_reading_draft.md`、`content/chapter_05_callouts.json` 與 `content/chapter_05_learning.json`。深入閱讀渲染後 5,142 個非空白字元，包含概念說明與工具一至三，各工具均含概要清單及 120–300 字說明段落。Chrome 已實測快問回饋、自評 12/12 保存與 390px 無水平溢出；尚待提交與部署。
+\n+- 2026-08-04：完成 Module 05「授權與自主決策」；commit `d6d3b3e1` 已推送，Netlify production 已部署。
