@@ -2,7 +2,7 @@
 
 ## 最新修正（2026-08-04）
 
-Module 01、02、06 的案例已改寫為不同情境與開場；所有學習頁與首頁已移除 PART I／PART II 標示。Module 06 的行動承諾已統一為 `05 ACTION COMMITMENT`、`.head + .simple-record`，與其他模組一致。Chrome 實測三頁通過；尚待提交與部署。
+Module 01、02、06 的案例已改寫為不同情境與開場；所有學習頁與首頁已移除 PART I／PART II 標示。Module 06 的行動承諾已統一為 `05 ACTION COMMITMENT`、`.head + .simple-record`，與其他模組一致。Chrome 實測三頁通過；commit `4ecd72a8` 已推送，Netlify production 已部署。
 
 ## Module 04 in progress · 2026-08-04
 
