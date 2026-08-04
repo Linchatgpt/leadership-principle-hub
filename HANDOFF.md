@@ -1,5 +1,9 @@
 # Latest handoff
 
+## Module 05／06 視覺修正（2026-08-04）
+
+截圖所示差異已定位為 Module 06 仍載入舊 CSS。現在 Module 06 已同步 Module 05 的行動承諾樣式；Module 05 案例已改為居家照護服務授權情境。Chrome 已驗證兩頁計算樣式一致、390px 無溢出；待提交與部署。
+
 ## Module 03／04 案例與 Module 06 核對（2026-08-04）
 
 Module 03、04 案例已重新改寫，敘事入口與產業情境分別改為教育科技共同方向、餐飲供應流程卡點。Module 06 已再次核對，`#s5` 與 Module 01 的結構 signature 完全一致；三頁 Chrome 實測通過。commit `9f9a3497` 已推送，Netlify production 已部署。

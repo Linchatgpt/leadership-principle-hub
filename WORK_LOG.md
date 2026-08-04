@@ -24,6 +24,8 @@
 Unknown / needs confirmation.
 # 工作紀錄
 
+- 2026-08-04：依截圖重新排查 Module 05／06 行動承諾視覺差異，確認 Module 06 是舊版 CSS，不是 DOM 結構問題；已將 Module 06 共用 style block 同步至 Module 05。Chrome 計算後兩頁均為暖米色 `rgb(247,239,226)`、4px 金色左線、28px padding、820px 寬，390px 無水平溢出。Module 05 案例改寫為居家照護服務的授權與夜間派案情境。
+
 - 2026-08-04：重新核對 Module 06 行動承諾，確認其 DOM signature 與 Module 01 完全一致（`.head`、`.simple-record action-commitment`、焦點、行動 textarea、日期 input）。另改寫 Module 03、04 工作案例，分別採教育科技／共同願景與餐飲供應／流程卡點情境；同步更新第三章 Royal 實驗頁。35 項自動測試通過，Chrome 實測 Module 03、04、06 標題、案例開頭、行動承諾與 PART 文字排除均通過。
 
 - 2026-08-04：修正 Module 01、02、06 工作案例重複問題，改用不同組織、人物與敘事入口；移除學習頁與首頁的 `PART I`／`PART II` 顯示；Module 06 的 `05 ACTION COMMITMENT` 已改成與其他模組一致的 `.head + .simple-record` 結構。自動測試 35 項通過，Chrome 實測三個模組的標題、案例開頭、行動承諾結構及無 `PART` 文字正常。
