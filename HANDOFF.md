@@ -12,6 +12,8 @@ The renderer also had a separate boundary issue: a blank line after a tool headi
 
 The Module 04 article now distinguishes concepts from tools: `可驗證假設` is labeled as a concept explanation, while the actionable sections are standardized as `工具一` through `工具三`. Each tool starts with a concise list summary followed by one or two explanatory paragraphs.
 
+Each actionable tool now has one bounded explanation paragraph after its summary: 工具一 89 characters, 工具二 80, 工具三 76. The concept explanation is 79 characters. Chrome confirmed the paragraphs remain inside their respective cards and the 390px viewport has no horizontal overflow.
+
 ## GitHub / Netlify publishing · 2026-08-04
 
 The project is published at `https://github.com/Linchatgpt/leadership-principle-hub`. The Netlify site name is `leadership-principle-hub`; its production URL is `https://leadership-principle-hub.netlify.app`. Netlify serves the generated learner pages as static files and excludes local administration tools, source materials, internal documents, and experiments from deployment.

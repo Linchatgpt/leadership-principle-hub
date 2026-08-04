@@ -16,9 +16,10 @@ def render_deep_reading_markdown(source):
     paragraph = []
     list_kind = None
     open_panel = None
+    tool_paragraphs = 0
 
     def flush_paragraph():
-        nonlocal paragraph
+        nonlocal paragraph, tool_paragraphs
         if not paragraph:
             return
         text = "".join(part.strip() for part in paragraph)
@@ -27,6 +28,8 @@ def render_deep_reading_markdown(source):
         else:
             text = _inline(text)
         output.append(f"<p>{text}</p>")
+        if open_panel == "tool":
+            tool_paragraphs += 1
         paragraph = []
 
     def close_list():
@@ -36,10 +39,11 @@ def render_deep_reading_markdown(source):
             list_kind = None
 
     def close_panel():
-        nonlocal open_panel
+        nonlocal open_panel, tool_paragraphs
         if open_panel:
             output.append("</div>")
             open_panel = None
+            tool_paragraphs = 0
 
     index = 0
     while index < len(lines):
@@ -47,7 +51,7 @@ def render_deep_reading_markdown(source):
         stripped = raw.strip()
         if not stripped:
             flush_paragraph()
-            if open_panel == "tool":
+            if open_panel == "tool" and tool_paragraphs:
                 close_panel()
             close_list()
             index += 1
@@ -81,6 +85,7 @@ def render_deep_reading_markdown(source):
             output.append(f'<span class="tool-label">{_inline(label)}</span>')
             output.append(f"<h3>{_inline(heading if separator else title)}</h3>")
             open_panel = "tool"
+            tool_paragraphs = 0
             index += 1
             continue
 

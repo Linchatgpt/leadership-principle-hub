@@ -5,6 +5,7 @@
 - 2026-08-04：排查使用者看到舊版的原因，確認是 `LPIPage:v2` localStorage 舊 HTML 快取在載入時覆蓋 regenerated `main`。更新 `editor-runtime.js` 版本比對保護與 Module 04 `content_version` 1.1.0；Chrome 注入舊快取後重載，確認縮短後文字可見、舊文字不可見，並清除測試快取。
 - 2026-08-04：再確認工具箱卡片仍顯得過長的原因是 Markdown renderer 容器邊界錯誤；修正空行後關閉 `.reading-tool` 的規則並調整 Module 04 工具段落格式，確認「一週改善回看表」卡片只包含 88 字說明，後續正文已移出卡片。
 - 2026-08-04：依使用者補充，將純概念「可驗證假設」改標為「概念說明」，並將真正可操作的內容調整為「工具一」至「工具三」；每個工具仍先列概要再接 1–2 段說明。
+- 2026-08-04：依使用者要求補上每個工具的 50–100 字說明段落；工具一／二／三分別為 89／80／76 字，概念說明為 79 字。Chrome 確認段落留在各自卡片內，390px 無水平溢位。
 
 - 2026-08-04：建立 GitHub 公開儲存庫 `Linchatgpt/leadership-principle-hub` 並連結 Netlify 站點 `leadership-principle-hub`；Netlify 設為靜態發布已生成的首頁與 Module 01–06，部署排除管理工具、來源材料與內部文件。
 
