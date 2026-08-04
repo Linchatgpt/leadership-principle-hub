@@ -6,6 +6,8 @@ Module 04「挑戰流程」已依最新版 build-source-book-learning-hub skill 
 
 `LPI_Coach_Chapter04.html` now uses the new reading-entry contract, chapter-specific four-dimension/12-item assessment, simplified 04/05 transfer layout, and SEO title/description/canonical/Open Graph/JSON-LD metadata. After the requested shortening, the rendered article is approximately 5,256 non-whitespace characters and its introduction is approximately 184 characters. Static tests pass. Chrome verified the quick scan open/feedback/reload/clear flow, incomplete and complete assessment, focus options, transfer-field persistence, clear scope, and 390px no-overflow behavior; test data was cleared afterward.
 
+The follow-up check found that an older `LPIPage:v2` local editor snapshot could replace regenerated `main` content at page load. Module 04 now uses content version `1.1.0`, and `assets/editor-runtime.js` restores cached HTML only when its version matches the current chapter config. Chrome injected an old snapshot, reloaded the page, confirmed the shortened text was visible and the old text was absent, then cleared the test snapshot.
+
 ## GitHub / Netlify publishing · 2026-08-04
 
 The project is published at `https://github.com/Linchatgpt/leadership-principle-hub`. The Netlify site name is `leadership-principle-hub`; its production URL is `https://leadership-principle-hub.netlify.app`. Netlify serves the generated learner pages as static files and excludes local administration tools, source materials, internal documents, and experiments from deployment.
