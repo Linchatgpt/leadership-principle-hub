@@ -1,0 +1,29 @@
+/* V2 preview: preserve the chapter content while improving orientation and reading entry. */
+.side small{display:none}
+.side h2{font-family:Arial,"Noto Sans TC",sans-serif;font-size:38px;font-weight:500;line-height:1.35;letter-spacing:.02em;margin:0 0 42px;color:var(--deep)}
+.side a{padding:11px 0 13px;font-size:16px;line-height:1.5;color:#6b7773;letter-spacing:.01em}
+.side a:hover,.side a:focus-visible{color:var(--deep)}
+.reading-brief{margin:34px 0 18px;padding:28px 30px;background:#f3f5f0;border:1px solid #d8ddd6;border-left:5px solid var(--sage)}
+.reading-brief .brief-label{display:block;margin-bottom:6px;color:#8b7155;font-size:11px;font-weight:700;letter-spacing:.13em}
+.reading-brief h3{margin:0 0 8px;font:500 23px/1.4 Georgia,"Noto Serif TC",serif;color:var(--deep)}
+.reading-brief>p{margin:0 0 16px;color:var(--muted);font-size:14px}
+.reading-brief ul{margin:0;padding-left:1.25em}
+.reading-brief li{margin:8px 0;color:#334c45;font-size:15px;line-height:1.7}
+.quick-scan{margin:18px 0 42px;border:1px solid #d8ddd6;background:#fff}
+.quick-scan>summary{display:flex;align-items:center;justify-content:space-between;gap:20px;padding:20px 24px;cursor:pointer;color:var(--deep);font-weight:700;list-style:none}
+.quick-scan>summary::-webkit-details-marker{display:none}
+.quick-scan>summary::after{content:"＋";font-size:24px;font-weight:400;color:var(--sage)}
+.quick-scan[open]>summary::after{content:"−"}
+.quick-scan>summary small{display:block;color:#8b7155;font-size:10px;letter-spacing:.13em}
+.quick-scan-body{padding:0 24px 26px;border-top:1px solid var(--line)}
+.quick-scan-intro{margin:18px 0;color:var(--muted);font-size:14px}
+.quick-scan-question{padding:22px 0;border-top:1px solid var(--line)}
+.quick-scan-question:first-of-type{border-top:0}
+.quick-scan-question h4{margin:0 0 12px;font-size:16px;line-height:1.6;color:var(--deep)}
+.quick-scan-options{display:grid;grid-template-columns:1fr 1fr;gap:10px}
+.quick-scan-options button{padding:14px 16px;border:1px solid #b9c5bd;background:var(--paper);color:var(--ink);font:14px/1.6 Arial,"Noto Sans TC",sans-serif;text-align:left;cursor:pointer}
+.quick-scan-options button:hover,.quick-scan-options button:focus-visible{border-color:var(--sage);background:#f1f5f1}
+.quick-scan-options button.selected{border-color:var(--ink);background:var(--ink);color:#fff}
+.quick-scan-feedback{margin:12px 0 0;padding:14px 16px;background:#edf3ee;border-left:4px solid var(--sage);color:#355249;font-size:13px;line-height:1.7}
+@media(min-width:801px){.layout{grid-template-columns:280px minmax(0,820px);gap:62px}.side{padding:48px 28px 48px 36px}}
+@media(max-width:800px){.reading-brief{padding:22px 20px;margin-top:28px}.reading-brief h3{font-size:21px}.quick-scan-options{grid-template-columns:1fr}.quick-scan>summary,.quick-scan-body{padding-left:20px;padding-right:20px}}

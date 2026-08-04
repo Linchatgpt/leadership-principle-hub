@@ -1,0 +1,1 @@
+{"private":true,"scripts":{"build-editor":"esbuild admin-ckeditor.js --bundle --format=iife --outfile=assets/ckeditor5.bundle.js"},"dependencies":{"ckeditor5":"^48.3.1","esbuild":"^0.25.0"}}

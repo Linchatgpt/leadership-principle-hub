@@ -1,0 +1,7 @@
+.DS_Store
+__pycache__/
+.recovery/
+.admin_history/
+tmp/
+.netlify/
+reference_materials/source_book/inbox/

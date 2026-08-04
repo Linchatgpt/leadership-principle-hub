@@ -1,0 +1,31 @@
+{
+  "project_title": "卓越領導力©核心課程",
+  "output_prefix": "LPI_Coach",
+  "primary_source": "A Coach's Guide to Developing Exemplary Leaders (Kouzes, Posner, Biech)",
+  "secondary_sources": [],
+  "target_learners": "台灣企業主管、內部教練、HR／OD與領導力培訓者",
+  "locale": "zh-Hant-TW",
+  "chapter_count": 6,
+  "module_range": [1, 6],
+  "project_directory": "Leadership Principle hub",
+  "home_intro": "聚焦五項卓越領導實踐，從接受挑戰到鼓舞人心，把領導原則轉成工作現場可觀察、可練習的日常行動。",
+  "home_map_heading": "選一項領導實踐，帶一個真實議題進來。",
+  "editor_password_hash": "4fd7cf032819efc46489a3ff9c6fbd55d16518b289cd053affa665882669272e",
+  "site_shell": {
+    "brand_mark": "XL",
+    "footer_font_size_px": 22,
+    "footer_items": [
+      {
+        "label": "精萃領導™學習中心"
+      },
+      {
+        "label": "林祖威教練",
+        "href": "https://leading4elite.com/about_wesley/"
+      },
+      {
+        "label": "wesley.lin@leading4elite.com",
+        "href": "https://mail.google.com/mail/?view=cm&fs=1&to=wesley.lin@leading4elite.com"
+      }
+    ]
+  }
+}
